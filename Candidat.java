@@ -1,4 +1,4 @@
-package com.inti.model;
+
 
 public class Candidat {
 	private int id;
@@ -59,3 +59,5 @@ public class Candidat {
 		this.email = email;
 	}
 }
+
+
