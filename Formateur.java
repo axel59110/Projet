@@ -1,15 +1,15 @@
 import java.util.Arrays;
 
 public class Formateur {
-	int Id;
-	String nom;
-	String prénom;
-	String spécialité; 
-	String ville;
-	String matière;
-	String commentaire;
-	Float note;
-	Float moyenne;
+	private int Id;
+	private String nom;
+	private String prenom;
+	private String specialite; 
+	private String ville;
+	private String matiere;
+	private String commentaire;
+	private Float note;
+	private Float moyenne;
 	
 	float tableaunote []= {note};
 
