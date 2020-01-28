@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Formateur {
-	private int Id;
+	private int id;
 	private String nom;
 	private String prenom;
 	private String specialite; 
@@ -14,11 +14,11 @@ public class Formateur {
 	float tableaunote []= {note};
 
 	public int getId() {
-		return Id;
+		return id;
 	}
 
 	public void setId(int id) {
-		Id = id;
+		id = id;
 	}
 
 	public String getNom() {
@@ -29,20 +29,20 @@ public class Formateur {
 		this.nom = nom;
 	}
 
-	public String getPrénom() {
-		return prénom;
+	public String getPrenom() {
+		return prenom;
 	}
 
-	public void setPrénom(String prénom) {
-		this.prénom = prénom;
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
 	}
 
-	public String getSpécialité() {
-		return spécialité;
+	public String getSpecialite() {
+		return specialite;
 	}
 
-	public void setSpécialité(String spécialité) {
-		this.spécialité = spécialité;
+	public void setSpecialite(String specialite) {
+		this.specialite = specialite;
 	}
 
 	public String getVille() {
@@ -53,12 +53,12 @@ public class Formateur {
 		this.ville = ville;
 	}
 
-	public String getMatière() {
-		return matière;
+	public String getMatiere() {
+		return matiere;
 	}
 
-	public void setMatière(String matière) {
-		this.matière = matière;
+	public void setMatiere(String matiere) {
+		this.matiere = matiere;
 	}
 
 	public String getCommentaire() {
@@ -95,8 +95,8 @@ public class Formateur {
 
 	@Override
 	public String toString() {
-		return "Formateur [Id=" + Id + ", nom=" + nom + ", prénom=" + prénom + ", spécialité=" + spécialité + ", ville="
-				+ ville + ", matière=" + matière + ", commentaire=" + commentaire + ", note=" + note + ", moyenne="
+		return "Formateur [Id=" + id + ", nom=" + nom + ", prenom=" + prenom + ", specialite=" + specialite + ", ville="
+				+ ville + ", matiere=" + matiere + ", commentaire=" + commentaire + ", note=" + note + ", moyenne="
 				+ moyenne + ", tableaunote=" + Arrays.toString(tableaunote) + "]";
 	}
 
@@ -104,15 +104,15 @@ public class Formateur {
 		super();
 	}
 
-	public Formateur(int id, String nom, String prénom, String spécialité, String ville, String matière,
+	public Formateur(int id, String nom, String prenom, String specialite, String ville, String matiere,
 			String commentaire, Float note, Float moyenne, float[] tableaunote) {
 		super();
-		Id = id;
+		id = id;
 		this.nom = nom;
-		this.prénom = prénom;
-		this.spécialité = spécialité;
+		this.prenom = prenom;
+		this.specialite = specialite;
 		this.ville = ville;
-		this.matière = matière;
+		this.matiere = matiere;
 		this.commentaire = commentaire;
 		this.note = note;
 		this.moyenne = moyenne;
